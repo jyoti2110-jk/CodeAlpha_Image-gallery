@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Responsive Image Gallery</title>
+<link rel="icon" type="image/png" href="./favicon.png">
+<link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+<div class="header">
+
+<h1>Responsive Image Gallery</h1>
+
+<button id="darkMode">🌙 Dark Mode</button>
+
+</div>
+
+<input
+    type="text"
+    id="search"
+    placeholder="🔍 Search images...">
+
+<div class="buttons">
+
+<button class="active" data-filter="all">All</button>
+
+<button data-filter="nature">Nature</button>
+
+<button data-filter="city">City</button>
+
+<button data-filter="animals">Animals</button>
+
+<button data-filter="birds">Birds</button>
+
+<button data-filter="flowers">Flowers</button>
+
+</div>
+
+<div class="gallery">
+
+<div class="image nature"><img src="images/1.jpg"><p>Cold beauty of nature</p></div>
+<div class="image nature"><img src="images/2.jpg"><p>Blue green nature</p></div>
+<div class="image nature"><img src="images/3.jpg"><p>Unique nature</p></div>
+<div class="image nature"><img src="images/4.jpg"><p>Wattery nature</p></div>
+<div class="image nature"><img src="images/5.jpg"><p>Green piece of nature</p></div>
+
+<div class="image city"><img src="images/6.jpg"><p>Light city</p></div>
+<div class="image city"><img src="images/7.jpg"><p>Quick zoom</p></div>
+<div class="image city"><img src="images/8.jpg"><p>Bright light city</p></div>
+<div class="image city"><img src="images/9.jpg"><p>White buildings city</p></div>
+<div class="image city"><img src="images/10.jpg"><p>Night view of city</p></div>
+
+<div class="image animals"><img src="images/11.jpg"><p>wild animal</p></div>
+<div class="image animals"><img src="images/12.jpg"><p>Cat</p></div>
+<div class="image animals"><img src="images/13.jpg"><p>Squirrel</p></div>
+<div class="image animals"><img src="images/14.jpg"><p>Meercats</p></div>
+<div class="image animals"><img src="images/15.jpg"><p>Deers</p></div>
+
+<div class="image birds"><img src="images/16.jpg"><p>Grey-bellied Bullfinch</p></div>
+<div class="image birds"><img src="images/17.jpg"><p>Plumed egret</p></div>
+<div class="image birds"><img src="images/18.jpg"><p>Blue Throated bee-eaters</p></div>
+<div class="image birds"><img src="images/19.jpg"><p>Parrots</p></div>
+<div class="image birds"><img src="images/20.jpg"><p>National bird of UGANDA</p></div>
+
+<div class="image flowers"><img src="images/21.jpg"><p>Orange Dahlias</p></div>
+<div class="image flowers"><img src="images/22.jpg"><p>Putunia flowers</p></div>
+<div class="image flowers"><img src="images/23.jpg"><p>Asters</p></div>
+<div class="image flowers"><img src="images/24.jpg">Roses</div>
+<div class="image flowers"><img src="images/25.jpg"><p>White diasy flowers</p></div>
+
+</div>
+
+<div class="lightbox">
+
+    <span class="close">&times;</span>
+
+    <button class="prev">&#10094;</button>
+
+    <img class="lightbox-img">
+
+    <p id="counter"></p>
+
+    <a id="download" download>⬇ Download</a>
+
+    <button class="next">&#10095;</button>
+
+</div>
+ <footer>
+
+    <p>© 2026 Responsive Image Gallery | Designed & Developed by Jyoti Kale</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
