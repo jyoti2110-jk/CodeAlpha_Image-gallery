@@ -100,7 +100,7 @@ Pravara Rural Engineering College, Loni
 GitHub:
 https://github.com/jyoti2110-jk
 
-LinkedIn:
+LinkedIn: https://www.linkedin.com/in/jyoti-kale-7842513b0?utm_source=share_via&utm_content=profile&utm_medium=member_android
 
 
 ## ⭐ If you like this project
