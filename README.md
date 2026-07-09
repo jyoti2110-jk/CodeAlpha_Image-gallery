@@ -3,7 +3,7 @@
 A modern, responsive Image Gallery built using **HTML, CSS, and JavaScript**. This project provides a clean and interactive user experience with category filtering, image search, lightbox view, dark mode, slideshow, and responsive design.
 
 ## 🚀 Live Demo
-
+https://jyoti2110-jk.github.io/CodeAlpha_Image-gallery/
 
 ## ✨ Features
 
